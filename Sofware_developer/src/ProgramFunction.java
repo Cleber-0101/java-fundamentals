@@ -18,17 +18,18 @@ public class ProgramFunction {
         sc.close();
     }
 
-    public static int max(int a, int b, int x) {
-        int maior = a;
-
-        if (b > maior) {
-            maior = b;
-        }
-
-        if (x > maior) {
-            maior = x;
-        }
-
-        return maior;
-    }
+	    /*Esqueleto de uma função basica que recebe parametros*/
+	    public static int max(int a, int b, int x) {
+	        int maior = a;
+	
+	        if (b > maior) {
+	            maior = b;
+	        }
+	
+	        if (x > maior) {
+	            maior = x;
+	        }
+	
+	        return maior;
+	    }
 }
