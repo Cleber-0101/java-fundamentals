@@ -11,5 +11,4 @@ public class ComputadorInstanciado {
 	
 	//Classe computadorInstanciad Recebeu a instancia da Classe Fabricante
 	Fabricante fabricante;
-
 }
